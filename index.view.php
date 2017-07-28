@@ -17,6 +17,8 @@
 <body>
 <body>
 	<header> 
+
+	<h>After changes</h>
 		<ul>
 		<?php foreach ($tasks as $task): ?>
 			<li>
@@ -34,6 +36,8 @@
 
 
 		</ul>
+
+
 
 
 
