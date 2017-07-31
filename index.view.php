@@ -17,10 +17,12 @@
 <body>
 <body>
 	<header> 
+		<ul>
 
+		<li><a href="/about.php">About Page</li>
+		<li><a href="/contact.php">Contact Us</li>
+		</ul>
 
-	<?php require('partials/nav.php') ?>
-		
 	<h1>My task</h1>
 		<ul>
 		<?php foreach ($tasks as $task): ?>

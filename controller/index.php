@@ -1,16 +1,9 @@
 <?php
 
 
+//$tasks=$query->selectAll('todos');
 
-
-
-
-
-
-
-$tasks=$query->selectAll('todos');
-
-
+$tasks= $app['database']->selectAll('todos');
 
 
 

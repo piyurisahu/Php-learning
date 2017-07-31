@@ -12,6 +12,7 @@
 	</style>
 </head>
 <body>
+<?php require('partials/nav.php') ?>
 
 <h1>About Us</h1>
 

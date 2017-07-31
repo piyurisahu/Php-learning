@@ -10,7 +10,7 @@ class QueryBuilder
 	}
 
 
-	public function selectAll($table)
+	public function selectAll(string $table) 
 	{
 		$stat=$this->pdo->prepare("select * from {$table}");
 

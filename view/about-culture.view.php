@@ -12,7 +12,8 @@
 	</style>
 </head>
 <body>
+<?php require('partials/nav.php') ?>
 
-<h1>About culture</h1>
+<h1>About culture <?= $name; ?></h1>
 
 </body>

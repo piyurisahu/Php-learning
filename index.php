@@ -4,6 +4,7 @@
 
 
 $query=require 'core/bootstarp.php';
+//die(var_dump($app));
 
  //$router=new Connection;
 
@@ -11,13 +12,15 @@ $query=require 'core/bootstarp.php';
 
 //require 'route.php';
 
-$url=trim($_SERVER['REQUEST_URI'],'/');
+//$url=trim($_SERVER['REQUEST_URI'],'/');
 //require $router->direct($url);
 
-require Connection :: load('route.php')
-			->direct($url);
+// $router = Connection :: load('route.php');
+// require $router->direct($url);
 
 
+require Router :: load('route.php')
+				->direct(Request :: uri());
 
 
 
